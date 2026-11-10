@@ -733,6 +733,29 @@
                 animation-duration: .01ms !important;
             }
         }
+
+        .video-section {
+            padding: 70px 0;
+            background: var(--green-pale);
+            margin-top: 60px;
+        }
+
+        .video-wrap {
+            margin-top: 24px;
+        }
+
+        .video-box {
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 8px 24px #202c2722;
+        }
+
+        .video-caption {
+            margin-top: 14px;
+            color: var(--muted);
+            font-size: 12px;
+            line-height: 1.7;
+        }
     </style>
 </head>
 
@@ -874,7 +897,25 @@
                 </article>
             </div>
         </section>
-
+        <section class="video-section" id="video">
+            <div class="wrap">
+                <div class="section-heading">
+                    <div>
+                        <p class="section-kicker">SHORT FILM</p>
+                        <h2>一城光影，慢看成都</h2>
+                    </div>
+                    <p>跟着镜头，感受街巷流动的烟火与温柔。</p>
+                </div>
+                <div class="video-wrap">
+                    <div class="video-box">
+                        <video src="images/chdu.mp4" controls poster="images/fmian.jpg">
+                            你的浏览器不支持视频播放，请更换浏览器。
+                        </video>
+                    </div>
+                    <p class="video-caption">镜头掠过红墙竹影、老街茶馆，捕捉成都独有的松弛烟火，感受这座城市不慌不忙的节奏。</p>
+                </div>
+            </div>
+        </section>
         <section class="food-section" id="food">
             <div class="wrap">
                 <div class="section-heading">
